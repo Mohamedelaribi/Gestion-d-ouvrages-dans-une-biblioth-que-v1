@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothque</title>
+    <link rel="stylesheet" href="Biblio2 (1).css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/jellee-typeface" type="text/css"/>
+
+</head>
+<body>
+    <form id="form" action="javascript:void(0)">
+        
+        <input id="input" type="text" name="input" placeholder="enter your boks title">
+        <p></p> <br>
+    
+        <input id="input" type="text" placeholder="Nom de l'auteur">
+        <p></p> <br>
+
+        <input id="input" type="text" placeholder="prix">
+        <p></p> <br>
+
+        <input id="input" type="date" placeholder="date de publication">
+        <p></p> <br>
+
+        <label id="lbl">langue:</label><br>
+        <select name="select" id="lang">
+            <option value="">Anglais</option>
+            <option value="">Français</option>s
+            <option value="">arabe</option>
+        </select><br>
+        
+            <span>type de livre:</span>
+        <div class="typ">
+            <label id="typ">Roman</label>
+            <input type="radio" name="type">
+            <label id="typ">Essai</label>
+            <input type="radio" name="type">
+            <label id="typ"> Bande-Dessinée</label>
+            <input type="radio" name="type">
+            <p id="typ"></p>
+        </div>
+        <button type="submit">submit</button>
+        
+    </form>
+    
+    <script src="Biblio2 (1).js"></script>
+
+</body>
+</html>
