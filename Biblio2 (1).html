@@ -12,7 +12,7 @@
 <body>
     <form id="form" action="javascript:void(0)">
         
-        <input id="input" type="text" name="input" placeholder="enter your boks title">
+        <input id="input" type="text" name="input" placeholder="enter titre de livre">
         <p></p> <br>
     
         <input id="input" type="text" placeholder="Nom de l'auteur">
@@ -26,24 +26,40 @@
 
         <label id="lbl">langue:</label><br>
         <select name="select" id="lang">
+            
+            <option disabled selected hidden value>choisir un langue</option>
             <option value="">Anglais</option>
             <option value="">Français</option>s
             <option value="">arabe</option>
-        </select><br>
+            
+        </select><P></P><br>
         
             <span>type de livre:</span>
         <div class="typ">
             <label id="typ">Roman</label>
-            <input type="radio" name="type">
+            <input type="radio" name="type" class="med">
             <label id="typ">Essai</label>
-            <input type="radio" name="type">
+            <input type="radio" name="type" class="med">
             <label id="typ"> Bande-Dessinée</label>
-            <input type="radio" name="type">
-            <p id="typ"></p>
+            <input type="radio" name="type" class="med">
+            <p id="paragraphe"></p>
         </div>
-        <button type="submit">submit</button>
+        <button id="btn" type="submit">submit</button>
         
     </form>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>titre de livre</th>
+                <th>Nom de l'auteur</th>
+                <th>prix</th>
+                <th>date de publication</th>
+                <th>langue</th>
+                <th>type de livre</th>
+            </tr>
+        </thead>
+
+    </table>
     
     <script src="Biblio2 (1).js"></script>
 

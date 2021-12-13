@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url("book-dark (1).jpeg");
+
     height: 150vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ form{
     border: none;
     border-radius: 10px;
     height: 20px;
-    width: 70px;
+    width: 150px;
 }
 span{
     font-size: 30px;
@@ -59,4 +59,17 @@ span{
     position: relative;
     left: 45%;
     margin: 20px;
+}
+#table{
+    min-width: 600px;
+    width: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+
+}
+thead tr{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
